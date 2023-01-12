@@ -11,10 +11,13 @@
       href="https://fonts.googleapis.com/css2?family=Dosis&family=Open+Sans&family=Parisienne&display=swap"
       rel="stylesheet"
     />
-    <link
+    <link href="/fontawesome-free-6.2.1-web/css/fontawesome.css" rel="stylesheet">
+    <link href="/fontawesome-free-6.2.1-web/css/brands.css" rel="stylesheet">
+    <link href="/fontawesome-free-6.2.1-web/css/solid.css" rel="stylesheet">
+    <!-- <link
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
       rel="stylesheet"
-    />
+    /> -->
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
@@ -31,6 +34,7 @@
               autocomplete="off"
               data-form-input
             />
+            <input type="datetime-local" data-form-date placeholder="YYYY/MM/DD">
             <button type="submit" class="btnCreate" data-form-btn>
               Agregar <i class="fas fa-plus-circle"></i>
             </button>
@@ -40,6 +44,8 @@
         </ul>
       </div>
     </main>
+    <script src="uuid/uuid.js"></script>
+    <script src="moment/moment.js"></script>
     <script type="module" src="script.js"></script>
   </body>
 </html>
